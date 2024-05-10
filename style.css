@@ -1,5 +1,63 @@
-.tela {
-    width: auto;
-    height:900px;
-    background-color: blueviolet;
+.container {
+    width: 1500px;
+    height: 800px;
+    background-color: rgb(94, 160, 204);
+}
+
+.quadro {
+    width: 1500px;
+    height: 100px;
+    background-color: rgb(102, 139, 219);
+}
+.lista {
+    display: flex;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    padding-top: 20px;
+}
+
+.lista-item {
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    margin: 0px;
+    padding-left: 0px;
+    border: 1px black solid;
+}
+span {
+    background-color: rgb(252, 252, 252);
+    margin-top: 0;
+    padding: 20px;
+}
+#mini {
+    width: 1500px;
+    height: 500px;
+    border: 1px solid #c3c3c3;
+    display: flex;
+}
+
+#mini div {
+    width: 750px;
+    height: 500px;
+}
+
+.mini-1 {
+    background-color: rgb(255, 255, 255);
+    ;
+}
+.mini-2 {
+    background-color: rgb(255, 255, 255);
+}
+
+.meio {
+    background-color: rgb(12, 133, 180);
+    width: 1500px;
+    height: 200px;
+}
+
+footer {
+    background-color: rgb(83, 151, 214);
+    width: 1500px;
+    height: 100px;
 }
